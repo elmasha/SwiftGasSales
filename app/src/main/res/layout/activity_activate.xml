@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivateActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Shop Activation"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorSecondary"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/activated"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorSecondary"
+                        android:text="00"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:text="Activated shops"
+                        android:textSize="18dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/shop_no"
+                    android:layout_width="200dp"
+                    android:hint="Enter shop Number"
+                    android:inputType="phone"
+                    android:background="@drawable/circle_grey_border"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btn_activate"
+                    android:layout_width="120dp"
+                    android:background="@drawable/blck_bg"
+                    android:textColor="@color/colorBlack"
+                    android:text="Activate"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="90dp"
+                        android:id="@+id/ShopImage"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/ActiveShopName"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:text=""
+                        android:textSize="19dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/ActiveVendorName"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:text=""
+                        android:textSize="19dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/ActiveShopNo"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:text=""
+                        android:textSize="19dp"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

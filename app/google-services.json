@@ -1,0 +1,145 @@
+{
+  "project_info": {
+    "project_number": "650675477770",
+    "project_id": "swiftgas-65014",
+    "storage_bucket": "swiftgas-65014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650675477770:android:6aa5ae0547b6a6fb012ef3",
+        "android_client_info": {
+          "package_name": "com.gas.swiftel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650675477770-52lfupanh88nt5osvkuv7sfnhah1ove7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gas.swiftel",
+            "certificate_hash": "785fe5cdd935a518363e1189523ff8efca501580"
+          }
+        },
+        {
+          "client_id": "650675477770-ln6na8vue990atgidqpe1v5qc09tujkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gas.swiftel",
+            "certificate_hash": "019ab34824b42134e7c68dfcb1662500c103c4ea"
+          }
+        },
+        {
+          "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6fbSCNLVuJjFa9wvJ0LauNsx9iATXOtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650675477770:android:35fb00fb66831dbc012ef3",
+        "android_client_info": {
+          "package_name": "com.sales.swiftgassales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650675477770-se8nlo0652ij1bvqg44a6o59142l27k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sales.swiftgassales",
+            "certificate_hash": "785fe5cdd935a518363e1189523ff8efca501580"
+          }
+        },
+        {
+          "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6fbSCNLVuJjFa9wvJ0LauNsx9iATXOtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650675477770:android:4176738e174e138a012ef3",
+        "android_client_info": {
+          "package_name": "com.swiftgas.swiftel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650675477770-1055tltu653qufr3bf6p27rrddlfai6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiftgas.swiftel",
+            "certificate_hash": "785fe5cdd935a518363e1189523ff8efca501580"
+          }
+        },
+        {
+          "client_id": "650675477770-cfdm7odugmgs5l73quvau1l03041hhkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiftgas.swiftel",
+            "certificate_hash": "a4e1c84d18e365ff94631986b8dcbce1ee18c271"
+          }
+        },
+        {
+          "client_id": "650675477770-fhuvrpkm7q3c0qq08au1d9kutjc039j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiftgas.swiftel",
+            "certificate_hash": "cf52295a5ce1b0fe0f9993cddb311941bd8c2666"
+          }
+        },
+        {
+          "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6fbSCNLVuJjFa9wvJ0LauNsx9iATXOtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650675477770-tmee308mftgspscc1koh9r5sdal4s9m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
